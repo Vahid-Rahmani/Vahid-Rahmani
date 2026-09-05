@@ -1,0 +1,45 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Vahid Rahmani — Cloud, Infrastructure and Automation</title>
+  <desc id="desc">A dark professional banner with cloud, network and automation nodes.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.55" stop-color="#0B1F35"/>
+      <stop offset="1" stop-color="#102D46"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="650" y1="40" x2="1110" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#background)"/>
+  <path d="M0 270C170 215 240 310 390 245C535 182 580 235 720 185C875 130 1008 205 1200 110" stroke="#173B56" stroke-width="2"/>
+  <path d="M0 292C180 237 252 329 410 264C555 205 620 260 754 208C900 151 1040 224 1200 132" stroke="#12324A" stroke-width="1"/>
+  <g opacity="0.22" stroke="#5EEAD4" stroke-width="1">
+    <path d="M690 74L838 155L1000 84L1110 186L1010 250L840 217L690 74Z"/>
+    <path d="M838 155L840 217M1000 84L1010 250M1110 186L1000 84"/>
+  </g>
+  <g stroke="url(#accent)" stroke-width="2" opacity="0.78">
+    <path d="M692 77L838 156L997 85L1108 187L1010 248L841 215L692 77Z"/>
+    <path d="M838 156L841 215M997 85L1010 248M1108 187L997 85"/>
+  </g>
+  <g fill="#67E8F9" filter="url(#glow)">
+    <circle cx="692" cy="77" r="5"/><circle cx="838" cy="156" r="6"/><circle cx="997" cy="85" r="5"/>
+    <circle cx="1108" cy="187" r="5"/><circle cx="1010" cy="248" r="5"/><circle cx="841" cy="215" r="5"/>
+  </g>
+  <g fill="#E0F2FE" font-family="Segoe UI, Arial, sans-serif">
+    <text x="72" y="112" font-size="48" font-weight="700" letter-spacing="1">VAHID RAHMANI</text>
+    <text x="76" y="158" font-size="22" fill="#A5F3FC" letter-spacing="2">CLOUD • INFRASTRUCTURE • AUTOMATION</text>
+    <text x="76" y="208" font-size="17" fill="#B7C9D9">Building reliable systems from the operating system to the cloud.</text>
+  </g>
+  <g fill="#7DD3FC" font-family="Consolas, monospace" font-size="13" opacity="0.9">
+    <text x="78" y="262">AZURE</text><text x="168" y="262">WINDOWS SERVER</text><text x="352" y="262">LINUX</text><text x="430" y="262">PYTHON</text>
+  </g>
+  <rect x="70" y="278" width="465" height="1" fill="#28516B"/>
+  <circle cx="1135" cy="44" r="3" fill="#67E8F9" opacity="0.8"/>
+  <circle cx="1160" cy="44" r="3" fill="#5EEAD4" opacity="0.6"/>
+</svg>
