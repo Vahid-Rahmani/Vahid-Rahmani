@@ -14,11 +14,10 @@ Cloud Engineer Trainee based in Hamburg, Germany, focused on practical infrastru
 | Area | Project |
 | --- | --- |
 | Infrastructure monitoring | [Automated Hybrid Network Monitoring Dashboard](https://github.com/Vahid-Rahmani/Automated-Hybrid-Network-Monitoring-Dashboard) |
-| Edge / IoT | [Cloud-Connected Hardware IoT Monitor](https://github.com/Vahid-Rahmani/Cloud-Connected-Hardware-IoT-Monitor) |
+| Raspberry Pi & IoT | [Cloud-Connected Hardware IoT Monitor](https://github.com/Vahid-Rahmani/Cloud-Connected-Hardware-IoT-Monitor) |
 | AI developer tools | [Multi-Agent Coding](https://github.com/Vahid-Rahmani/mullti_agent_coding) |
 | AI content automation | [LinkedIn Automation Agent](https://github.com/Vahid-Rahmani/agent-for-linkdin) |
 | Learning assistant | [Zova](https://github.com/Vahid-Rahmani/zovasite) |
-| Raspberry Pi AI monitoring | [Raspberry Pi AI Monitoring System](https://github.com/Vahid-Rahmani/Raspberry-Pi-AI-Monitoring-System) |
 | Portfolio | [vahid-portfolio](https://github.com/Vahid-Rahmani/vahid-portfolio) |
 
 ## Applied AI & automation training
