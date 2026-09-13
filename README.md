@@ -1,80 +1,37 @@
-<div align="center">
+# Vahid Rahmani — Executive Engineering Portfolio
 
-<img src="./assets/profile-header.svg" alt="Vahid Rahmani — Cloud, Infrastructure and Automation" width="100%" />
+> **CloudGuard role:** Executive Engineering Portfolio  
+> **Maturity level:** Phase 0 complete · Phase 1 Internal MVP in progress  
+> **Current status:** Portfolio index for the CloudGuard AI company path and independent products  
+> **Target phase:** Phase 1 — Internal MVP
 
-### Cloud Engineer Trainee · Azure · Windows Server · Linux · Python
+## CloudGuard AI
 
-Hamburg, Germany · Building practical infrastructure and automation projects
+- **Platform:** cloudguard-platform — private Azure-first product monorepo.
+- **Public showcase:** [CloudGuard-AI](https://github.com/Vahid-Rahmani/CloudGuard-AI).
+- **Azure AI knowledge and evaluation:** [Azure-AI-Specialist-Project-Plan](https://github.com/Vahid-Rahmani/Azure-AI-Specialist-Project-Plan).
+- **Windows / AD connector lab:** [Automated-Hybrid-Network-Monitoring-Dashboard](https://github.com/Vahid-Rahmani/Automated-Hybrid-Network-Monitoring-Dashboard).
+- **Edge / IoT lab:** [Cloud-Connected-Hardware-IoT-Monitor](https://github.com/Vahid-Rahmani/Cloud-Connected-Hardware-IoT-Monitor).
+- **Agent orchestration candidate:** [mullti_agent_coding](https://github.com/Vahid-Rahmani/mullti_agent_coding), under review before any migration.
+- **Alerting lab:** [Serverless-Network-Sentinel-Bot](https://github.com/Vahid-Rahmani/Serverless-Network-Sentinel-Bot).
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vahid-rahmani-699944417/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-2563EB?logo=vercel&logoColor=white)](https://vahid-portfolio-three.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-Contact-0F766E?logo=gmail&logoColor=white)](mailto:info.zova24@gmail.com)
+## Network and infrastructure labs
 
-</div>
+- [Hybrid-Identity-Sync-Local-AD-to-Azure-Entra-ID](https://github.com/Vahid-Rahmani/Hybrid-Identity-Sync-Local-AD-to-Azure-Entra-ID)
+- [Global-High-Availability-Web-Hosting-with-IaC](https://github.com/Vahid-Rahmani/Global-High-Availability-Web-Hosting-with-IaC)
+- [network-to-cloud-sheets](https://github.com/Vahid-Rahmani/network-to-cloud-sheets)
+- [ctf-unterricht](https://github.com/Vahid-Rahmani/ctf-unterricht)
 
-## Profile
+## Independent products
 
-I build and document hands-on systems across cloud infrastructure, Windows and Linux administration, networking, edge devices, and automation. My projects are small enough to understand, practical enough to demonstrate, and structured so another engineer can reproduce the setup.
+Dobzova/Zova, Zofa and PyFlow remain separate products with no direct CloudGuard runtime dependency.
 
-## What I work with
+## Experiments
 
-| Focus | Tools and practice |
-| --- | --- |
-| Cloud infrastructure | Microsoft Azure, Azure Monitor, Log Analytics, hybrid architecture |
-| Systems | Windows Server, Active Directory, PowerShell, Linux administration |
-| Networking | DNS, reachability, infrastructure monitoring, troubleshooting |
-| Automation | Python, Bash, REST APIs, repeatable operational workflows |
-| Edge & IoT | Raspberry Pi, ESP32 direction, telemetry and local monitoring |
-| Applied AI systems | RAG, LangGraph, multi-agent workflows, evaluation and safe tool use |
-| Web delivery | React, TypeScript, Vite, Tailwind CSS, Vercel |
+AI Drop Agent and LinkedIn Agent remain experiments. They are not CloudGuard dependencies and are reviewed for archive only after the defined inactivity and portfolio checks.
 
-## Engineering focus
+## Operating principles
 
-```mermaid
-flowchart LR
-    C[Cloud infrastructure] --> N[Networks and systems]
-    N --> E[Edge and device telemetry]
-    E --> A[Automation and observability]
-    A --> P[Clear operational products]
-```
-
-I care about measurable behaviour, least-privilege access, useful documentation, and a clear distinction between what is implemented today and what is planned next.
-
-## Featured projects
-
-### Infrastructure and cloud
-
-- [Automated Hybrid Network & Monitoring Dashboard](https://github.com/Vahid-Rahmani/Automated-Hybrid-Network-Monitoring-Dashboard) — Active Directory discovery, reachability checks, Windows host metrics, and a FastAPI dashboard.
-- [Cloud-Connected Hardware & AI Monitoring](https://github.com/Vahid-Rahmani/Cloud-Connected-Hardware-IoT-Monitor) — Raspberry Pi and hardware-monitoring foundation with a documented edge/cloud roadmap.
-- [Azure AI Specialist](https://github.com/Vahid-Rahmani/Azure-AI-Specialist-Project-Plan) — Azure knowledge collection, data curation, evaluation, and RAG/model strategy.
-
-### Automation and products
-
-- [MultiAgentCoding](https://github.com/Vahid-Rahmani/mullti_agent_coding) — visual workflow control plane for multi-agent coding operations.
-- [LinkedIn Activity Assistant](https://github.com/Vahid-Rahmani/agent-for-linkdin) — local activity monitoring, GitHub-based content preparation, reporting, and browser automation.
-- [AI Drop Agent](https://github.com/Vahid-Rahmani/AI-Drop-Agent) — modular market research, supplier checks, fee calculation, and opportunity ranking.
-- [Zova](https://github.com/Vahid-Rahmani/dobzova) — Chrome classroom assistant with transcription, translation, study support, and local class history.
-
-## Portfolio and learning
-
-- [Live portfolio](https://vahid-portfolio-three.vercel.app/) — selected work, technical direction, and project case studies.
-- [Zova product site](https://zovasite.vercel.app/) — product overview, installation guide, privacy, and support.
-- Current learning direction: Azure infrastructure, Windows Server, Linux/RHCSA preparation, networking/CCNA practice, Python automation, and cloud operations.
-
-## Working principles
-
-- Document the real implementation, not an imagined architecture.
-- Prefer secure defaults and keep credentials outside repositories.
-- Validate infrastructure changes with repeatable checks.
-- Keep automation observable, bounded, and reversible.
-- Build projects that are easy for a teammate or recruiter to inspect.
-
-## Connect
-
-If you are hiring for a junior cloud, infrastructure, systems, or automation role, I would be glad to connect.
-
-<div align="center">
-
-[LinkedIn](https://www.linkedin.com/in/vahid-rahmani-699944417/) · [Portfolio](https://vahid-portfolio-three.vercel.app/) · [GitHub repositories](https://github.com/Vahid-Rahmani?tab=repositories)
-
-</div>
+- No repository is deleted during restructuring.
+- Reusable code is migrated only after contract tests and through a pull request to cloudguard-platform.
+- CloudGuard safety classes are explicit: GREEN automatic, YELLOW approval required, RED forbidden.
